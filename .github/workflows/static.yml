@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Velvessence Massage Center | Premium Home Spa for Ladies</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e6b319",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#211d11",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .glass-nav {
+            background: rgba(248, 247, 246, 0.8);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 glass-nav border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">spa</span>
+<h1 class="text-xl font-extrabold tracking-tight uppercase">Velvessence</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#timings">Timings</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#testimonials">Testimonials</a>
+</nav>
+<a class="bg-primary text-background-dark px-6 py-2.5 rounded-full font-bold text-sm hover:scale-105 transition-transform active:scale-95" href="#booking">
+                Book Now
+            </a>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-b from-background-light/40 via-background-light/20 to-background-light dark:from-background-dark/60 dark:to-background-dark z-10"></div>
+<img alt="Luxury Spa Ambience" class="w-full h-full object-cover" data-alt="Soft focus spa scene with towels, candles, and essential oils" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGZ6LoKObn-EjHEAfHyiTnSph5vGkrLkK5ppeLWhIC7GSuLVCeY3SYmItYH_MAGaBu523-koW1GpWYg8XQ0A7Fv5g3dksIvMqHFNFFPBq_BU0jGvfaN17GfWIaZFI4DbS_yC5_Y0OiCGksZT5SG0G8aWL0AZdDJ1Xof7Jq7rRs4WoKCMr0bj8GwPe7YLGp2cXAol8AXCJ_NlI8wjzWzIHJvK0fR3fcY4ZKSo-Q_FgXLHqPZ_ZSJEnk2mGG36yptm9C8r8Tjc8H2xU"/>
+</div>
+<div class="relative z-20 text-center px-6 max-w-4xl mx-auto">
+<span class="inline-block py-1 px-4 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase mb-6">Exclusive Ladies' Home Service</span>
+<h2 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-slate-900 dark:text-white">
+                    Unwind. Recharge. <span class="text-primary italic">Transform.</span>
+</h2>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto font-medium">
+                    Professional, discreet home massage services tailored specifically for the modern woman. Experience luxury in your own sanctuary.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a class="bg-primary text-background-dark px-10 py-4 rounded-full font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all" href="#booking">
+                        Book Your Appointment
+                    </a>
+<a class="bg-white/80 dark:bg-background-dark/80 backdrop-blur border border-primary/20 px-10 py-4 rounded-full font-bold text-lg hover:bg-white transition-all" href="#services">
+                        Our Services
+                    </a>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24 px-6 max-w-7xl mx-auto" id="about">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
+<img alt="Therapeutic Massage" class="rounded-2xl shadow-2xl relative z-10" data-alt="Close up of essential oils and hands during a massage session" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXXMTJR8TPVhSBxPm7tRNrvHyLyRpU6k5KhF_ckXKo1Cd5_AgbqOqkZj2nWBzUYabOZne7xew12RN6bgt8l8f4dr91PnOGTsr42V8Enn-ZPTWhybbxm_gzzsqU-Pcu8q5KD2xkgboaTf-xcIXuj4KNhrySarge_u4B5CcOG88JmfH0DrBn6uPL5RqXcDxrW0mDhW70AwWddAa1BmXTVSdyny4StlYr_x5XYSYSAMkfH9UApqJO0KFXkmUuKd3xtELE7hWVsQHw3s0"/>
+<div class="absolute -bottom-6 -right-6 p-8 bg-primary rounded-2xl hidden lg:block z-20">
+<p class="text-background-dark font-black text-4xl">10+</p>
+<p class="text-background-dark/80 font-bold text-sm uppercase tracking-wider">Years Experience</p>
+</div>
+</div>
+<div class="flex flex-col gap-8">
+<div>
+<h3 class="text-primary font-bold tracking-widest uppercase text-sm mb-4 italic">Experience Velvessence</h3>
+<h2 class="text-4xl font-extrabold mb-6 leading-tight">Elevating Home Wellness to New Heights</h2>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                            We bring the complete spa experience to your doorstep. Our highly experienced male therapist specializes in personalized sessions designed to melt away stress and restore balance, all within the safety and comfort of your home.
+                        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-white dark:bg-background-dark border border-primary/10 shadow-sm hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">schedule</span>
+<h4 class="font-bold mb-2">Flexible Timings</h4>
+<p class="text-xs text-slate-500">Appointments that fit your lifestyle.</p>
+</div>
+<div class="p-6 rounded-2xl bg-white dark:bg-background-dark border border-primary/10 shadow-sm hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">verified_user</span>
+<h4 class="font-bold mb-2">Privacy &amp; Safety</h4>
+<p class="text-xs text-slate-500">Discreet and professional at all times.</p>
+</div>
+<div class="p-6 rounded-2xl bg-white dark:bg-background-dark border border-primary/10 shadow-sm hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">self_improvement</span>
+<h4 class="font-bold mb-2">Wellness Focus</h4>
+<p class="text-xs text-slate-500">Holistic approach to body and mind.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Booking & Timings Section -->
+<section class="bg-primary/5 py-24 px-6 border-y border-primary/10" id="booking">
+<div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-start">
+<!-- Booking Form -->
+<div class="lg:col-span-7 bg-white dark:bg-background-dark p-8 md:p-12 rounded-3xl shadow-xl border border-primary/10">
+<h2 class="text-3xl font-extrabold mb-2 italic">Secure Your Session</h2>
+<p class="text-slate-500 mb-8">Fill in your details and we will confirm your booking shortly.</p>
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold uppercase tracking-wider text-slate-400">Full Name</label>
+<input class="w-full bg-slate-50 dark:bg-background-dark border-slate-200 dark:border-primary/20 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Jane Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold uppercase tracking-wider text-slate-400">WhatsApp Number</label>
+<input class="w-full bg-slate-50 dark:bg-background-dark border-slate-200 dark:border-primary/20 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="+1 (555) 000-0000" type="tel"/>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold uppercase tracking-wider text-slate-400">Preferred Date</label>
+<input class="w-full bg-slate-50 dark:bg-background-dark border-slate-200 dark:border-primary/20 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" type="date"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold uppercase tracking-wider text-slate-400">Preferred Time</label>
+<select class="w-full bg-slate-50 dark:bg-background-dark border-slate-200 dark:border-primary/20 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary">
+<option>Morning (10:00 AM - 1:00 PM)</option>
+<option>Afternoon (1:00 PM - 5:00 PM)</option>
+<option>Evening (5:00 PM - 10:00 PM)</option>
+</select>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold uppercase tracking-wider text-slate-400">Special Notes</label>
+<textarea class="w-full bg-slate-50 dark:bg-background-dark border-slate-200 dark:border-primary/20 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" placeholder="Any specific requirements or health concerns?" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-background-dark font-black py-4 rounded-xl text-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20" type="submit">
+                            Confirm Appointment Request
+                        </button>
+</form>
+</div>
+<!-- Timings & Info -->
+<div class="lg:col-span-5 space-y-12" id="timings">
+<div class="bg-primary p-8 rounded-3xl text-background-dark">
+<h3 class="text-2xl font-black mb-6 flex items-center gap-3 italic">
+<span class="material-symbols-outlined">schedule</span>
+                            Operating Hours
+                        </h3>
+<div class="space-y-4 font-bold">
+<div class="flex justify-between border-b border-background-dark/10 pb-2">
+<span>Monday — Friday</span>
+<span>10:00 AM – 10:00 PM</span>
+</div>
+<div class="flex justify-between border-b border-background-dark/10 pb-2">
+<span>Saturday — Sunday</span>
+<span>10:00 AM – 10:00 PM</span>
+</div>
+<p class="text-sm font-medium pt-4 opacity-80 italic">* Weekend sessions are highly popular. We recommend booking 48 hours in advance for flexible timing.</p>
+</div>
+</div>
+<div class="p-8 rounded-3xl bg-white dark:bg-background-dark border border-primary/10">
+<h3 class="text-xl font-bold mb-4">Location Coverage</h3>
+<p class="text-slate-500 mb-6">We provide premium home services across the city. Your sanctuary is our spa.</p>
+<div class="rounded-2xl overflow-hidden h-48 relative grayscale border border-slate-100">
+<img alt="Service Area Map" class="w-full h-full object-cover" data-alt="Map of the city highlighting service area" data-location="Dubai" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWNVw0zVkYBcVRhelR8SbqHGw0ODvm5sddUvi5qPhIGB_eufDcF7OKJyLxDP2Txbcm0-PHfYCmuZXvt9RPuyGyaK4o8uoGwyoK83XEXbmHlKPnAS1yxfIMSWkyYXDh-MJZLVxMfDSD50cdf6L9Lf7aa7rmM3Q7Uz4STlJhx3eoFNOGsx38F__YypwKU5Jom1v67u7LqHG0bT7xbQY23KmPoy8PWmSBAZ_-g9qJiTCASZSnppRK4wx_qKLt43HT98omXAWMlv7xMnk"/>
+<div class="absolute inset-0 flex items-center justify-center bg-primary/10">
+<div class="bg-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+<span class="text-xs font-bold text-slate-800">We travel to you</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="py-24 px-6 overflow-hidden" id="testimonials">
+<div class="max-w-7xl mx-auto text-center mb-16">
+<h2 class="text-4xl font-extrabold mb-4 italic">Kind Words from Clients</h2>
+<p class="text-slate-500 max-w-2xl mx-auto">Discover why our clients trust Velvessence for their wellness journey.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-white dark:bg-background-dark p-8 rounded-3xl border border-primary/10 max-w-sm flex-1 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 italic mb-6">"The most professional home service I have experienced. The therapist was incredibly respectful and the massage was transformative. Highly recommended for busy professionals."</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">SA</div>
+<div>
+<p class="font-bold text-sm">Sarah A.</p>
+<p class="text-xs text-slate-400">Marketing Executive</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-white dark:bg-background-dark p-8 rounded-3xl border border-primary/10 max-w-sm flex-1 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 italic mb-6">"Absolute privacy and luxury. I love that I don't have to leave my home after the session. I can just stay in my zen state. Truly a 5-star experience."</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">ML</div>
+<div>
+<p class="font-bold text-sm">Maya L.</p>
+<p class="text-xs text-slate-400">Business Owner</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-white dark:bg-background-dark p-8 rounded-3xl border border-primary/10 max-w-sm flex-1 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 italic mb-6">"The attention to detail is incredible. From the specialized oils to the personalized pressure—it was exactly what I needed. Professional and very polite."</p>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">EK</div>
+<div>
+<p class="font-bold text-sm">Elena K.</p>
+<p class="text-xs text-slate-400">Yoga Instructor</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA WhatsApp Section -->
+<section class="py-20 px-6">
+<div class="max-w-5xl mx-auto bg-slate-900 dark:bg-slate-800 rounded-[3rem] p-10 md:p-16 text-center text-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -ml-32 -mb-32"></div>
+<h2 class="text-3xl md:text-4xl font-black mb-6 relative z-10 italic">Ready for Pure Relaxation?</h2>
+<p class="text-slate-400 mb-10 text-lg max-w-xl mx-auto relative z-10 font-medium">Have questions or want to book instantly via chat? Message our team directly on WhatsApp.</p>
+<a class="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform relative z-10" href="https://wa.me/yourphonenumber">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.634 1.437h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                    Message Us on WhatsApp
+                </a>
+<p class="mt-8 text-primary text-sm font-bold tracking-widest uppercase italic">Your privacy and comfort are our top priority.</p>
+</div>
+</section>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-primary/10 py-12 px-6">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">spa</span>
+<span class="font-extrabold text-lg uppercase tracking-tight">Velvessence</span>
+</div>
+<div class="text-slate-400 text-sm font-medium">
+                © 2026 Velvessence Massage Center. All rights reserved.
+            </div>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-primary transition-colors text-sm font-bold uppercase tracking-widest" href="#">Privacy Policy</a>
+<a class="text-slate-400 hover:text-primary transition-colors text-sm font-bold uppercase tracking-widest" href="#">Terms</a>
+</div>
+</div>
+</footer>
+</body></html># Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
